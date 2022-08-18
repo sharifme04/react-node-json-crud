@@ -43,6 +43,6 @@ This part done by react js redux redux saga and jest for testing.
 `Technologies : React, react hooks, redux , redux-saga, and jest`.
 ---
 Please see the `screenshot` to see the view
-![screenshot](screenshots/1.PNG)
-![screenshot](screenshots/2.PNG)
-![screenshot](screenshots/3.PNG)
+![screenshot](screenshots/1.png)
+![screenshot](screenshots/2.png)
+![screenshot](screenshots/3.png)
