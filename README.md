@@ -40,7 +40,7 @@ Then you can  run the test for client  in the client directory:
 Frontend: 
 This part done by react js redux redux saga and jest for testing.
 
-`Technologies : React, react hooks, redux , redux-saga, and jest`.
+`Technologies : node js, express, React, react hooks, redux , redux-saga, and jest`.
 ---
 Please see the `screenshot` to see the view
 ![screenshot](screenshots/1.png)
