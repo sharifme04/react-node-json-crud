@@ -1,5 +1,5 @@
 
-This project has two two part 
+This project has two two parts
 
 `1)Frontend`
 `2)Backend`
