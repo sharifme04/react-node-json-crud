@@ -12,6 +12,7 @@ const Form = ({ handleChange, values, handleSubmit, btnColor, btnTitle }) => {
           onChange={handleChange}
           className="form-control"
           name="title"
+          required
         />
       </div>
       <div className="form-group mt-3">
@@ -22,6 +23,7 @@ const Form = ({ handleChange, values, handleSubmit, btnColor, btnTitle }) => {
           onChange={handleChange}
           className="form-control"
           name="description"
+          required
         />
       </div>
       <div className="mt-4"></div>
