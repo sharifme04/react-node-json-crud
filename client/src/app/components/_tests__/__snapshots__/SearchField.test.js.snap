@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot SearchField renders with empty props 1`] = `
+<div
+  className="search-field"
+>
+  <input
+    className="form-control"
+    placeholder="search by title"
+    type="text"
+  />
+</div>
+`;
+
+exports[`snapshot SearchField renders with props 1`] = `
+<div
+  className="search-field"
+>
+  <input
+    className="form-control"
+    onChange={[Function]}
+    placeholder="search by title"
+    type="text"
+    value="value"
+  />
+</div>
+`;

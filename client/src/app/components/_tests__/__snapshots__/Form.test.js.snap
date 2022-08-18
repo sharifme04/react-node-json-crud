@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot Form renders with empty props 1`] = `
+<form>
+  <div
+    className="form-group"
+  >
+    <label>
+      Title:
+    </label>
+    <input
+      className="form-control"
+      name="title"
+      type="label"
+    />
+  </div>
+  <div
+    className="form-group mt-3"
+  >
+    <label>
+      Description:
+    </label>
+    <input
+      className="form-control"
+      name="description"
+      type="label"
+    />
+  </div>
+  <div
+    className="mt-4"
+  />
+  <input
+    className="btn btn-primary"
+    type="submit"
+    value="Add"
+  />
+</form>
+`;
+
+exports[`snapshot Form renders with props 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="form-group"
+  >
+    <label>
+      Title:
+    </label>
+    <input
+      className="form-control"
+      name="title"
+      onChange={[Function]}
+      type="label"
+      value="sharif"
+    />
+  </div>
+  <div
+    className="form-group mt-3"
+  >
+    <label>
+      Description:
+    </label>
+    <input
+      className="form-control"
+      name="description"
+      onChange={[Function]}
+      type="label"
+      value="some description now"
+    />
+  </div>
+  <div
+    className="mt-4"
+  />
+  <input
+    className="btn btn-info"
+    type="submit"
+    value="Update"
+  />
+</form>
+`;

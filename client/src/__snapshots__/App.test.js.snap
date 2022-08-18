@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot data renders 1`] = `
+<div
+  className="container"
+>
+  <h2
+    className="app-title"
+  >
+    Todo App
+  </h2>
+  <hr />
+  <div>
+    <div
+      className="input-group d-flex justify-content-between"
+    >
+      <a
+        href="/todo/addnew"
+        onClick={[Function]}
+      >
+        <button
+          className="btn btn-primary"
+          type="button"
+        >
+          Add New
+        </button>
+      </a>
+      <div
+        className="search-field"
+      >
+        <input
+          className="form-control"
+          onChange={[Function]}
+          placeholder="search by title"
+          type="text"
+          value=""
+        />
+      </div>
+      <div />
+    </div>
+    <hr />
+    <table
+      className="table table-striped"
+    >
+      <thead>
+        <tr>
+          <th
+            scope="col"
+          >
+            ID
+          </th>
+          <th
+            scope="col"
+          >
+            Title
+          </th>
+          <th
+            scope="col"
+          >
+            Description
+          </th>
+          <th
+            scope="col"
+          >
+            Date
+          </th>
+          <th
+            scope="col"
+          >
+            Edit
+          </th>
+          <th
+            scope="col"
+          >
+            Delete
+          </th>
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+  </div>
+</div>
+`;
+
+exports[`snapshot renders when navigate add route 1`] = `
+<div
+  className="container"
+>
+  <h2
+    className="app-title"
+  >
+    Todo App
+  </h2>
+  <hr />
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-group"
+    >
+      <label>
+        Title:
+      </label>
+      <input
+        className="form-control"
+        name="title"
+        onChange={[Function]}
+        type="label"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group mt-3"
+    >
+      <label>
+        Description:
+      </label>
+      <input
+        className="form-control"
+        name="description"
+        onChange={[Function]}
+        type="label"
+        value=""
+      />
+    </div>
+    <div
+      className="mt-4"
+    />
+    <input
+      className="btn btn-primary"
+      type="submit"
+      value="Add"
+    />
+  </form>
+</div>
+`;
+
+exports[`snapshot renders when navigate edit route 1`] = `
+<div
+  className="container"
+>
+  <h2
+    className="app-title"
+  >
+    Todo App
+  </h2>
+  <hr />
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-group"
+    >
+      <label>
+        Title:
+      </label>
+      <input
+        className="form-control"
+        name="title"
+        onChange={[Function]}
+        type="label"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group mt-3"
+    >
+      <label>
+        Description:
+      </label>
+      <input
+        className="form-control"
+        name="description"
+        onChange={[Function]}
+        type="label"
+        value=""
+      />
+    </div>
+    <div
+      className="mt-4"
+    />
+    <input
+      className="btn btn-info"
+      type="submit"
+      value="Update"
+    />
+  </form>
+</div>
+`;

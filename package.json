@@ -1,0 +1,24 @@
+{
+  "name": "xempus-app",
+  "version": "1.0.0",
+  "description": "A test for xempus",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "install-client": "cd client && npm install",
+    "start-client": "cd client && npm start",
+    "app-start": "concurrently \"npm start\"  \"npm run start-client\"",
+    "app-install": "concurrently \"npm install\"  \"npm run install-client\"",
+    "app-test": "cd client && npm test"
+  },
+  "author": "Sharif Hossain",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^7.3.0",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.19"
+  }
+}

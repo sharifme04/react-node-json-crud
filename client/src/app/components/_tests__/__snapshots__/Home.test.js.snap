@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot renders with props and data 1`] = `
+<div>
+  <div
+    className="input-group d-flex justify-content-between"
+  >
+    <a
+      href="/todo/addnew"
+      onClick={[Function]}
+    >
+      <button
+        className="btn btn-primary"
+        type="button"
+      >
+        Add New
+      </button>
+    </a>
+    <div
+      className="search-field"
+    >
+      <input
+        className="form-control"
+        onChange={[Function]}
+        placeholder="search by title"
+        type="text"
+        value="title"
+      />
+    </div>
+    <div />
+  </div>
+  <hr />
+  <table
+    className="table table-striped"
+  >
+    <thead>
+      <tr>
+        <th
+          scope="col"
+        >
+          ID
+        </th>
+        <th
+          scope="col"
+        >
+          Title
+        </th>
+        <th
+          scope="col"
+        >
+          Description
+        </th>
+        <th
+          scope="col"
+        >
+          Date
+        </th>
+        <th
+          scope="col"
+        >
+          Edit
+        </th>
+        <th
+          scope="col"
+        >
+          Delete
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;
+
+exports[`snapshot renders with props without data 1`] = `
+<div
+  className="d-flex justify-content-center"
+>
+  <div
+    className="spinner-border"
+    role="status"
+  >
+    <span
+      className="visually-hidden"
+    >
+      Loading...
+    </span>
+  </div>
+</div>
+`;
+
+exports[`snapshot renders without props 1`] = `
+<div>
+  <div
+    className="input-group d-flex justify-content-between"
+  >
+    <a
+      href="/todo/addnew"
+      onClick={[Function]}
+    >
+      <button
+        className="btn btn-primary"
+        type="button"
+      >
+        Add New
+      </button>
+    </a>
+    <div
+      className="search-field"
+    >
+      <input
+        className="form-control"
+        placeholder="search by title"
+        type="text"
+      />
+    </div>
+    <div />
+  </div>
+  <hr />
+  <table
+    className="table table-striped"
+  >
+    <thead>
+      <tr>
+        <th
+          scope="col"
+        >
+          ID
+        </th>
+        <th
+          scope="col"
+        >
+          Title
+        </th>
+        <th
+          scope="col"
+        >
+          Description
+        </th>
+        <th
+          scope="col"
+        >
+          Date
+        </th>
+        <th
+          scope="col"
+        >
+          Edit
+        </th>
+        <th
+          scope="col"
+        >
+          Delete
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;

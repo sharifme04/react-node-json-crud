@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot SearchField renders with empty 1`] = `
+<tr>
+  <td />
+  <td />
+  <td />
+  <td />
+  <td>
+    <a
+      href="/todo/edit/undefined"
+      onClick={[Function]}
+    >
+      <button
+        className="btn btn-info"
+        type="button"
+      >
+        Edit
+      </button>
+    </a>
+  </td>
+  <td>
+    <button
+      className="btn btn-danger"
+      onClick={[Function]}
+      type="button"
+    >
+      Delete
+    </button>
+  </td>
+</tr>
+`;
+
+exports[`snapshot SearchField renders with empty props 1`] = `
+<tr>
+  <td />
+  <td />
+  <td />
+  <td />
+  <td>
+    <a
+      href="/todo/edit/undefined"
+      onClick={[Function]}
+    >
+      <button
+        className="btn btn-info"
+        type="button"
+      >
+        Edit
+      </button>
+    </a>
+  </td>
+  <td>
+    <button
+      className="btn btn-danger"
+      onClick={[Function]}
+      type="button"
+    >
+      Delete
+    </button>
+  </td>
+</tr>
+`;
+
+exports[`snapshot SearchField renders with props 1`] = `
+<tr>
+  <td>
+    8422553
+  </td>
+  <td>
+    sharif 954t5
+  </td>
+  <td>
+    This is a jkn5lkt text fosdmg, gmrat
+  </td>
+  <td>
+    17-08-2022
+  </td>
+  <td>
+    <a
+      href="/todo/edit/8422553"
+      onClick={[Function]}
+    >
+      <button
+        className="btn btn-info"
+        type="button"
+      >
+        Edit
+      </button>
+    </a>
+  </td>
+  <td>
+    <button
+      className="btn btn-danger"
+      onClick={[Function]}
+      type="button"
+    >
+      Delete
+    </button>
+  </td>
+</tr>
+`;
